@@ -11,9 +11,9 @@ public class Main {
 		RecordReader reader = new RecordReader();
 
 		String ownerTelNumber = null;
-		int basicCharge = 500;	// 基本料金
-		int unitPrice = 20;	// 通話単価
-		int callCharge = 0;	// 通話料金
+		int basicCharge = 1000; // 基本料金
+		int unitPrice = 20; // 通話単価
+		int callCharge = 0; // 通話料金
 
 		for (Record record = reader.read(); record != null; record = reader.read()) {
 
